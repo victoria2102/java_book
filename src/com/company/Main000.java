@@ -1,25 +1,30 @@
 package com.company;
 
-public class Main {
+public class Main000 {
 
     public static void main(String[] args) {
         // write your code here
-        int i = 1;
-        int s = 0;
+        int i;
+        int s;
 
+        i = 0;
+        s = 0;
         while (i <= 100) {
-            i++;
             s = s + i;
+            i++;
         }
         System.out.println("while : " + s);
 
+        i = 0;
+        s = 0;
         do {
             i++;
             s = s + i;
-        } while (i <= 100);
+        } while (i < 100);
         System.out.println("do : " + s);
 
-        for (i = 1; i <= 100; i++) {
+        s = 0;
+        for (i = 0; i <= 100; i++) {
             s = s + i;
         }
         System.out.println("for : " + s);
