@@ -1,1 +1,1 @@
-# java_book xxx
+# java_book
