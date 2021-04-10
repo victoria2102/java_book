@@ -6,7 +6,7 @@ public class Main000 {
 
     public static void main(String[] args) {
         // write your code here
-        int s=0;
+        int s = 0;
         Scanner console = new Scanner(System.in);
         System.out.println("Введите целое число:");
         int i = console.nextInt();
@@ -28,7 +28,6 @@ public class Main000 {
             c++;
         }
         System.out.println("while : " + s);
-
 
 
         s = 0;
